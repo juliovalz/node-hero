@@ -17,7 +17,7 @@ app.get('/', (req, res, next) => {
        if (err) {
            console.log("Can not connect to the DB" + err);
        }
-       client.query('SELECT $1::varchar AS my_first_query', function (err, result) {
+       client.query('SELECT * from users', function (err, result) {
             done();
             if (err) {
                 console.log(err);
