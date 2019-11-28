@@ -8,5 +8,11 @@
     "start": "node index.js"
   },
   "author": "juliovalz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
